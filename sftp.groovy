@@ -9,7 +9,7 @@ ChannelSftp sftpChannel = null
 String host             = "sftp.example.com"
 String username         = "mysftpuser"
 String privateKeyFile   = "/path/to/my/private.key"
-String inputFile        = "/file/to/be.transferred
+String inputFile        = "/file/to/be.transferred"
 String remoteFile       = "remote.filename"
 
 println "SFTP: Connecting to host ${sftpSession.host}..."
